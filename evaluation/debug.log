@@ -1,0 +1,2 @@
+2025-02-02 18:55:02,371 - root - INFO - /home/ubuntu/ObjectDetection/experiments/base_models_rcnn_test_20250129_230800/rcnn_init_model_weights_421.pth: {'mAP': np.float64(0.13655486048858897), 'mAP50': np.float64(0.32350671199140807), 'mAP75': np.float64(0.09211518180345164)}
+2025-02-07 08:17:00,532 - root - INFO - /home/ubuntu/ObjectDetection/experiments/base_models_rcnn_test_20250203_131121/rcnn_full_model_weights_658.pth: {'mAP': np.float64(0.34820715666691904), 'mAP50': np.float64(0.6468727137497767), 'mAP75': np.float64(0.309443172658907)}
