@@ -1,0 +1,15 @@
+data_config:
+  rcnn_data_path: /home/ubuntu/AI/DATA_SOURCE/Self_Driving_Car.v3-fixed-small.coco/export/coco_json/export
+  yolo_data_path: /home/ubuntu/AI/DATA_SOURCE/Self_Driving_Car.v3-fixed-small.coco/export/coco_json/yolo_format_data_test_14
+saved_models:
+  first_rcnn_model_path: /home/ubuntu/ObjectDetection/experiments/base_models_rcnn_test_20250124_095452/rcnn_init_model_weights_877.pth
+  last_rcnn_model_path: /home/ubuntu/ObjectDetection/experiments/base_models_rcnn_test_20250124_095452/rcnn_init_model_weights_877.pth
+  first_yolo_model_path: /home/ubuntu/ObjectDetection/experiments/base_models_yolo_test_20250126_090011/init_base/weights/best.pt
+  last_yolo_model_path: /home/ubuntu/ObjectDetection/experiments/base_models_yolo_test_20250126_090011/full_base/weights/best.pt
+model_config:
+  model_type: yolo
+exp_name: yolo_test
+output_path: /home/ubuntu/ObjectDetection/experiments
+batch_size: 32
+epochs: 10
+seed: 1984

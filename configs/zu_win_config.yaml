@@ -1,0 +1,15 @@
+data_config:
+  rcnn_data_path: D:\AI\DATA_SOURCE\Self_Driving_Car.v3-fixed-small.coco\export\coco_json\export
+  yolo_data_path: D:\AI\DATA_SOURCE\Self_Driving_Car.v3-fixed-small.coco\export\coco_json\yolo_format_data_test_8
+saved_models:
+  first_rcnn_model_path:
+  last_rcnn_model_path:
+  first_yolo_model_path:
+  last_yolo_model_path:
+model_config:
+  model_type: rcnn
+exp_name: rcnn_test
+output_path: D:\ObjectDetection\experiments
+batch_size: 24
+epochs: 1
+seed: 1984

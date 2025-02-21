@@ -1,0 +1,9 @@
+data_config:
+  rcnn_data_path: /home/ubuntu/AI/DATA_SOURCE/Self_Driving_Car.v3-fixed-small.coco/export/coco_json/export
+  yolo_data_path: /home/ubuntu/ObjectDetection/experiments/base_models_yolo_test_20250126_090011/full_base/weights/best.pt
+model_config:
+  model_type: rcnn
+models_paths:
+  - /home/ubuntu/ObjectDetection/experiments/base_models_rcnn_test_20250129_230800/rcnn_init_model_weights_421.pth
+output_path: /home/ubuntu/ObjectDetection/evaluation/
+batch_size: 16
